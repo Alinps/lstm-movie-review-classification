@@ -1,0 +1,82 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Virtual Environments
+# ==============================
+
+venv/
+env/
+.venv/
+ENV/
+
+# Conda
+.conda/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# IDE and Editors
+# ==============================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Environment Variables
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Machine Learning
+# ==============================
+
+
+# TensorFlow checkpoints
+checkpoints/
+*.ckpt
+*.index
+*.data-*
+
+# TensorBoard logs
+logs/
+runs/
+tensorboard/
+
+# ==============================
+# Data
+# ==============================
+
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# ==============================
+# Operating System
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Temporary Files
+# ==============================
+
+*.log
+*.tmp
+*.bak
